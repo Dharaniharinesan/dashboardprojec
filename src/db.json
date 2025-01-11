@@ -1,0 +1,96 @@
+{
+    "products": [
+      {
+        "id": "30b3",
+        "productName": "pencil",
+        "sku": "124",
+        "price": "4",
+        "stock": "5",
+        "category": "IT & Programming",
+        "status": "active"
+      },
+      {
+        "id": "ed63",
+        "productName": "pen sharper",
+        "sku": "345",
+        "price": "56",
+        "stock": "3",
+        "category": "Electronics",
+        "status": "Active"
+      },
+      {
+        "id": "fada",
+        "productName": "school bag",
+        "sku": "543",
+        "price": "98",
+        "stock": "79",
+        "category": "Electronics",
+        "status": "Active"
+      },
+      {
+        "id": "7356",
+        "productName": "pen",
+        "sku": "456",
+        "price": "20",
+        "stock": "20",
+        "category": "Fashion",
+        "status": "Active"
+      },
+      {
+        "id": "aaf8",
+        "productName": "school bag",
+        "sku": "767",
+        "price": "899",
+        "stock": "67",
+        "category": "Fashion",
+        "status": "Active"
+      }
+    ],
+    "orders": [
+      {
+        "id": "f8ef",
+        "orderId": "9",
+        "customerName": "hari",
+        "orderDate": "2025-01-10",
+        "orderStatus": "completed",
+        "paymentMethod": "cash",
+        "totalAmount": "90"
+      },
+      {
+        "id": "bbc1",
+        "orderId": "43",
+        "customerName": "dharani",
+        "orderDate": "2025-01-10",
+        "orderStatus": "completed",
+        "paymentMethod": "cash",
+        "totalAmount": "500"
+      },
+      {
+        "id": "e2b5",
+        "orderId": "54",
+        "customerName": "dharani",
+        "orderDate": "2025-01-10",
+        "orderStatus": "Confirmed",
+        "paymentMethod": "PayPal",
+        "totalAmount": "9"
+      },
+      {
+        "id": "79a8",
+        "orderId": "9",
+        "customerName": "dharani",
+        "orderDate": "2025-01-10",
+        "orderStatus": "Confirmed",
+        "paymentMethod": "Net Banking",
+        "totalAmount": "200"
+      },
+      {
+        "id": "fcb1",
+        "orderId": "54",
+        "customerName": "dharani",
+        "orderDate": "2025-01-11",
+        "orderStatus": "Confirmed",
+        "paymentMethod": "Net Banking",
+        "totalAmount": "200"
+      }
+    ]
+  }

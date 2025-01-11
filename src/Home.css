@@ -1,0 +1,119 @@
+/* Home.css */
+
+/* Main container for the layout */
+.main-container {
+    display: flex;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 20%; /* 20% width for the sidebar */
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    position: fixed; /* Keeps the sidebar fixed */
+    height: 100vh; /* Full height */
+  }
+  
+  /* Sidebar Links */
+  .sidebar h2 {
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+    padding-top: 20px;
+}
+  .sidebar ul li {
+    margin: 15px 0;
+    font-size: 23px;
+}
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: block;
+  }
+  
+  .sidebar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Content */
+  .main-content {
+    margin-left: 20%; /* Push the content to the right by the width of the sidebar */
+    width: 80%; /* Occupy the rest of the screen */
+    padding: 40px;
+    background-color: white;
+    box-sizing: border-box;
+  }
+  
+  /* Dashboard Title */
+  .main-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .main-title h3 {
+    font-size: 2rem;
+  }
+  
+  /* Cards for Dashboard */
+  .main-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .card {
+    background-color: #f1f1f1;
+    padding: 20px;
+    width: 48%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+  }
+  
+  .card h1 {
+    font-size: 2.5rem;
+    margin-top: 10px;
+  }
+  
+  .card:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+  }
+  
+  /* Responsive for smaller screens */
+  @media (max-width: 768px) {
+    .main-container {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+  
+    .main-content {
+      margin-left: 0;
+      width: 100%;
+    }
+  
+    .main-cards {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  
